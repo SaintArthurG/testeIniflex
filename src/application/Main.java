@@ -98,7 +98,7 @@ public class Main {
     }
 
     public void imprimirFuncionarioMaiorIdade() {
-        //nao utilizei lambda pois o escopo das duas proximas variaveis teriam que ser static;
+        //nao utilizei lambda pois as duas proximas variaveis teriam que ser static;
         LocalDate maisVelho = LocalDate.MAX;
         Funcionario funcionarioMaisVelho = null;
 
